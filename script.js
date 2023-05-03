@@ -8,11 +8,15 @@ btndesencriptar.addEventListener("click", desencriptar);
 btncopiar.addEventListener("click", copiar);
 
 function encriptar() {
-	let mensaje = txtn1.value;
-	let resp = txtn1.value.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u", "ufat");
+	if (txtn1.value == "marleny" || txtn1.value == "Marleny") {
+		respuesta.value = " Dos palabras, 5 letras. Tu lo sabes y yo lo se";
+	} else {
+		let mensaje = txtn1.value;
+		let resp = txtn1.value.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u", "ufat");
 
-	respuesta.value = resp;
-	txtn1.value = "";
+		respuesta.value = resp;
+		txtn1.value = "";
+	}
 }
 
 function desencriptar() {

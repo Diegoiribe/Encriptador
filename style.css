@@ -138,14 +138,14 @@ footer {
     margin: 5vh 4vw 0 40vw;
   }
   #inicio {
-    width: 102.5vw;
+    width: 100%;
   }
 }
 @media (max-width: 420px) {
   .container {
     display: flex;
     flex-direction: column;
-    width: 102.5vw;
+    width: 100%;
   }
   .buttons {
     display: flex;
@@ -165,6 +165,10 @@ footer {
     margin: 3vh 4vw 0 35vw;
   }
   #finnal {
-    width: 102.5vw;
+    width: 100%;
+  }
+  #inicio {
+    width: 100%;
+    padding: 0 0.4px 0 0;
   }
 }/*# sourceMappingURL=style.css.map */

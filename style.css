@@ -33,6 +33,8 @@ header #alura {
   color: rgba(250, 240, 240, 0.8549019608);
   font-size: 20px;
   font-weight: bolder;
+  resize: none;
+  border: none;
 }
 .container #respuesta {
   margin: 10px;
@@ -45,6 +47,8 @@ header #alura {
   color: rgba(250, 240, 240, 0.8549019608);
   font-size: 20px;
   font-weight: bolder;
+  resize: none;
+  border: none;
 }
 .container ::-moz-placeholder {
   color: rgba(250, 240, 240, 0.8549019608);
